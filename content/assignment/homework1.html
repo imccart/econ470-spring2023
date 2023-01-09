@@ -52,30 +52,30 @@ type: docs
 <tbody>
 <tr class="odd">
 <td align="left">Type 1</td>
-<td align="right">20</td>
-<td align="right">27</td>
-<td align="right">14</td>
-<td align="right">40</td>
+<td align="right">31</td>
+<td align="right">28</td>
+<td align="right">32</td>
+<td align="right">12</td>
 <td align="right">48</td>
-<td align="right">20</td>
+<td align="right">31</td>
 </tr>
 <tr class="even">
 <td align="left">Type 2</td>
-<td align="right">30</td>
-<td align="right">32</td>
-<td align="right">21</td>
-<td align="right">22</td>
-<td align="right">21</td>
-<td align="right">30</td>
+<td align="right">11</td>
+<td align="right">17</td>
+<td align="right">38</td>
+<td align="right">17</td>
+<td align="right">14</td>
+<td align="right">11</td>
 </tr>
 <tr class="odd">
 <td align="left">Type 3</td>
-<td align="right">46</td>
-<td align="right">36</td>
-<td align="right">24</td>
-<td align="right">32</td>
-<td align="right">17</td>
-<td align="right">46</td>
+<td align="right">34</td>
+<td align="right">39</td>
+<td align="right">49</td>
+<td align="right">12</td>
+<td align="right">44</td>
+<td align="right">34</td>
 </tr>
 </tbody>
 </table>
@@ -91,24 +91,24 @@ type: docs
            snp == &quot;No&quot; &amp;
            (planid &lt; 800 | planid &gt;= 900) &amp;
            !is.na(planid) &amp; !is.na(fips))</code></pre>
-<ol start="6" style="list-style-type: decimal">
-<li>Finally, limit your dataset only to plans with non-missing enrollment data. Provide a graph showing the average number of Medicare Advantage enrollees per county from 2008 to 2015. Be sure to format your graph in a meaningful way as we did in class.</li>
-</ol>
+<p>Limiting your dataset only to plans with non-missing enrollment data. Provide a graph showing the average number of Medicare Advantage enrollees per county from 2008 to 2015. Be sure to format your graph in a meaningful way as we did in class.</p>
 </div>
 <div id="premium-data" class="section level2">
 <h2>Premium Data</h2>
 <p>Now we’re going to incorporate the plan premium information. This is part of the “Plan Characteristics” data, and the underlying <code>R</code> scripts for these files can be found here: <a href="https://github.com/imccart-class/ma/blob/master/R_code/2_Plan_Characteristics.R">Plan Characteristics</a>.</p>
-<ol style="list-style-type: decimal">
-<li><p>Merge the plan characteristics data to the dataset you created in Step 6 above. Note that you’ll need to join the <a href="https://github.com/imccart-class/ma/blob/master/R_code/4_Penetration_Files.R">Market Penetration Data</a> in order to get the information you need to merge the plan characteristics. This is because the plan characteristics data only have state name and county (not FIPS codes). The penetration files have both FIPS codes and state/county names, so that dataset serves as a good crosswalk file.</p></li>
-<li><p>Provide a graph showing the average premium over time. Don’t forget about formatting!</p></li>
-<li><p>Provide a graph showing the percentage of $0 premium plans over time. Also…remember to format things.</p></li>
+<ol start="6" style="list-style-type: decimal">
+<li>Merge the plan characteristics data to the dataset you created in Step 6 above. Note that you’ll need to join the <a href="https://github.com/imccart-class/ma/blob/master/R_code/4_Penetration_Files.R">Market Penetration Data</a> in order to get the information you need to merge the plan characteristics. This is because the plan characteristics data only have state name and county (not FIPS codes). The penetration files have both FIPS codes and state/county names, so that dataset serves as a good crosswalk file.</li>
+</ol>
+<p>Provide a graph showing the average premium over time. Don’t forget about formatting!</p>
+<ol start="7" style="list-style-type: decimal">
+<li>Provide a graph showing the percentage of $0 premium plans over time. Also…remember to format things.</li>
 </ol>
 </div>
 </div>
 <div id="summary-questions" class="section level1">
 <h1>Summary Questions</h1>
 <p>With all of this data work and these great summaries, let’s take a step back and think about what all this means.</p>
-<ol style="list-style-type: decimal">
+<ol start="8" style="list-style-type: decimal">
 <li><p>Why did we drop the “800-series” plans?</p></li>
 <li><p>Why do so many plans charge a $0 premium? What does that really mean to a beneficiary?</p></li>
 <li><p>Briefly describe your experience working with these data (just a few sentences). Tell me one thing you learned and one thing that really aggravated you.</p></li>

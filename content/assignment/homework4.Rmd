@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 # Instructions
-In this assignment, you'll again work with the Medicare Advantage data. These data are described in detail in the [Medicare Advantage GitHub Repo](https://github.com/imccart-test/ma). We worked with a subset of these data back in assignment 1; however, this assignment requires that you work with a more complete version of the Medicare Advantage data. Once you have the data downloaded and the code running, answer the following questions:
+In this assignment, you'll again work with the Medicare Advantage data. These data are described in detail in the [Medicare Advantage GitHub Repo](https://github.com/imccart-class/ma). We worked with a subset of these data back in assignment 1; however, this assignment requires that you work with a more complete version of the Medicare Advantage data. Once you have the data downloaded and the code running, answer the following questions:
 
 # Summarize the data
 1. Plot the average number of Special Needs Plans (SNPs) per county and the average number of 800-series plans per county over time. You can do this in one or two plots.
