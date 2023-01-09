@@ -1,10 +1,10 @@
 ---
-title: "Module 1, Part 3: Matching, Weighting, and Selection on Observables"
-linktitle: "M1.3: Matching/Weighting"
+title: "Module 1, Part 3: Do penalties affect hospital prices?"
+linktitle: "M1.3: Application"
 menu:
   content:
     parent: Module 1
-    weight: 3
+    weight: 4
 type: docs
 bibliography: "../../static/bib/BibTeX_Library.bib"
 csl: "../../static/bib/chicago-syllabus-no-bib.csl"
@@ -17,17 +17,16 @@ output:
 knitr::opts_chunk$set(error = TRUE, comment = NA, warnings = FALSE, errors = FALSE, messages = FALSE, tidy = FALSE, echo = FALSE)
 ```
 
-Part 3 begins our first attempt to estimate a causal treatment effect. We'll do so with a few approaches, all of which rely on the combination of a "selection on observables" or "conditional independence" assumption, along with a "common support" assumption.
+Part 3 continues our work with matching, reweighting, and regression, but in the context of real life data on hospital prices.
+
 
 ## Objectives
-- Understand and explain the differences between matching and re-weighting
-- Explain the implicit weighting in OLS regression and how to avoid such weighting
-- Calculate an ATE or ATT using regression, matching, and weighting
-
+- Understand HCRIS data and explain hospital pricing
+- Calculate an ATE or ATT using regression, matching, and weighting using real-world pricing data
 
 ## Activities 
 - Continue working with the [Hospital Cost Report Information System (HCRIS)](https://github.com/imccart-test/hcris) repository.
-- Estimate treatment effects with simulated data, using matching, regression, and re-weighting
+- Estimate the effect of hospital penalties on hospital pricing
 
 
 ## Slides
@@ -40,10 +39,10 @@ Use the buttons below to open the slides either as an interactive website or as 
 <center>
 
 ```{r}
-knitr::include_url("https://imccart.github.io/econ470-content/01-hospital-pricing/01-hospital-pricing3.html")
+knitr::include_url("https://imccart.github.io/econ470-content/01-hospital-pricing/01-hospital-pricing4.html")
 ```
 
 
-<p><a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/01-hospital-pricing/01-hospital-pricing3.html"><i class="fas fa-external-link-alt"></i> View all slides in new window</a> <a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/01-hospital-pricing/01-hospital-pricing3.pdf" role="button"><i class="far fa-file-pdf"></i> Download PDF of all slides</a></p>
+<p><a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/01-hospital-pricing/01-hospital-pricing4.html"><i class="fas fa-external-link-alt"></i> View all slides in new window</a> <a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/01-hospital-pricing/01-hospital-pricing4.pdf" role="button"><i class="far fa-file-pdf"></i> Download PDF of all slides</a></p>
 
 </center>

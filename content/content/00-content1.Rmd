@@ -17,17 +17,16 @@ output:
 knitr::opts_chunk$set(error = TRUE, comment = NA, warnings = FALSE, errors = FALSE, messages = FALSE, tidy = FALSE, echo = FALSE)
 ```
 
-In part 1, we'll get everyone set up with `R`, `RStudio`, and Git, and make sure everyone can access our AWS computer.
+In part 1, we'll get everyone set up with `R`, `RStudio`, and `Git`.
 
 ## Objectives
 - Introduce the class, goals, structure, etc.
 - Review data manipulation in `R` using the `tidyverse`
-- Demonstrate `RStudio` in AWS and clone repo
+- Demonstrate `RStudio` and clone repo
 
 
 ## Activities 
 - Set up `R`, `RStudio`, and `Git` on your own machines
-- or, get comfortable with AWS access
 - Clone first repository
 
 
@@ -41,11 +40,11 @@ Use the buttons below to open the slides either as an interactive website or as 
 <center>
 
 ```{r}
-knitr::include_url("https://imccart.github.io/econ470-content/00-introduction/00-introduction1.html")
+knitr::include_url("https://imccart.github.io/econ470-content/00-introduction/00-1-setup.html")
 ```
 
 
-<p><a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/00-introduction/00-introduction1.html"><i class="fas fa-external-link-alt"></i> View all slides in new window</a> <a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/00-introduction/00-introduction1.pdf" role="button"><i class="far fa-file-pdf"></i> Download PDF of all slides</a></p>
+<p><a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/00-introduction/00-1-setup.html"><i class="fas fa-external-link-alt"></i> View all slides in new window</a> <a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/00-introduction/00-1-setup.pdf" role="button"><i class="far fa-file-pdf"></i> Download PDF of all slides</a></p>
 
 </center>
 

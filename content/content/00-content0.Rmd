@@ -17,7 +17,7 @@ output:
 knitr::opts_chunk$set(error = TRUE, comment = NA, warnings = FALSE, errors = FALSE, messages = FALSE, tidy = FALSE, echo = FALSE)
 ```
 
-This introduction module is a time for us to: 1) discuss the course; 2) get set up for future data work; and 3) learn/refresh some basic data management and analysis skills using R, Git, and GitHub. We'll also introduce the idea of causal inference and define the treatment effect estimands that will be of central interest throughout the course.
+This introduction module is a time for us to go over the details of the course, set up all of the software needs, and perform some basic data management and summary statistics. We'll also introduce the idea of causal inference and define the treatment effect estimands that will be of central interest throughout the course.
 
 ## Readings and other links
 

@@ -1,10 +1,10 @@
 ---
-title: "Module 0, Part 2: Practice with Real Data"
-linktitle: "M0.2: Data Wrangling in R"
+title: "Module 0, Part 2: Introduction to Causal Inference"
+linktitle: "M0.2: Causal Inference"
 menu:
   content:
     parent: Module 0
-    weight: 2
+    weight: 3
 type: docs
 bibliography: "../../static/bib/BibTeX_Library.bib"
 csl: "../../static/bib/chicago-syllabus-no-bib.csl"
@@ -17,16 +17,13 @@ output:
 knitr::opts_chunk$set(error = TRUE, comment = NA, warnings = FALSE, errors = FALSE, messages = FALSE, tidy = FALSE, echo = FALSE)
 ```
 
-In part 2, we'll introduce (or review) many of the basic data management tools and coding you'll need throughout the class.
+In part 2, we'll lay the foundation for all of the methods in this class...the potential outcomes framework. We'll discuss what this means and what we'll seek to estimate going forward.
+
 
 ## Objectives
-- Get (more) comfortable with `R`, `RStudio`, `Git`, and `GitHub`
-- Work with some Medicare Advantage data
-
-## Activities 
-- Data manipulation with the `tidyverse`
-- First [weekly check-in](/assignment/weekly-check-in.html) due on Friday.
-- Clone [Medicare Advantage repository](https://github.com/imccart-test/ma) and begin working with data 
+- Explain potential outcomes
+- Derive and explain the average treatment effect 
+- Explain the differences between an average treatment effect and the average treatment effect on the treated
 
 
 ## Slides
@@ -39,11 +36,11 @@ Use the buttons below to open the slides either as an interactive website or as 
 <center>
 
 ```{r}
-knitr::include_url("https://imccart.github.io/econ470-content/00-introduction/00-introduction2.html")
+knitr::include_url("https://imccart.github.io/econ470-content/00-introduction/00-2-causal-inference.html")
 ```
 
 
-<p><a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/00-introduction/00-introduction2.html"><i class="fas fa-external-link-alt"></i> View all slides in new window</a> <a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/00-introduction/00-introduction2.pdf" role="button"><i class="far fa-file-pdf"></i> Download PDF of all slides</a></p>
+<p><a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/00-introduction/00-2-causal-inference.html"><i class="fas fa-external-link-alt"></i> View all slides in new window</a> <a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/00-introduction/00-2-causal-inference.pdf" role="button"><i class="far fa-file-pdf"></i> Download PDF of all slides</a></p>
 
 </center>
 
