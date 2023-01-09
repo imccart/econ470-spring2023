@@ -28,5 +28,5 @@ This introduction module is a time for us to go over the details of the course, 
     - Understand filepaths. Short [video](https://youtu.be/NG7Y0kkGR8g) from Nick Huntington-Klein.
 - <i class="fa fa-database"></i> Data for this module:
     - Data from [Gapminder](https://www.gapminder.org/)
-    - [Medicare Advantage](https://github.com/imccart/Medicare-Advantage) repository
+    - [Medicare Advantage](https://github.com/imccart-class/ma) repository
 

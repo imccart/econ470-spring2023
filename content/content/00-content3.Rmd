@@ -25,7 +25,7 @@ In part 3, we'll introduce and practice many of the basic data management tools 
 
 ## Activities 
 - Data manipulation with the `tidyverse`
-- Clone [Medicare Advantage repository](https://github.com/imccart-test/ma) and begin working with data 
+- Clone [Medicare Advantage repository](https://github.com/imccart-class/ma) and begin working with data 
 
 
 ## Slides
