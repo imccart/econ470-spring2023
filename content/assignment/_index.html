@@ -1,6 +1,6 @@
 ---
 title: General information
-date: "2022-01-03"
+date: "2024-01-09"
 menu:
   assignment:
     parent: Assignments
@@ -12,41 +12,60 @@ output:
     toc: true
 ---
 
-<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
 
 <div id="TOC">
 <ul>
-<li><a href="#homework">Homework</a></li>
-<li><a href="#project">Project</a></li>
-<li><a href="#participation">Participation</a></li>
+<li><a href="#homework" id="toc-homework">Homework</a></li>
+<li><a href="#project" id="toc-project">Project</a></li>
+<li><a href="#participation" id="toc-participation">Participation</a></li>
 </ul>
 </div>
 
-<p>Below are basic descriptions of each category of assignments for this semester. More details are available on the individual pages for each assignment. Please be sure to check the due dates on each assignment. Late assignments will receive an automatic 2% reduction in the grade for each day the assignment is turned in after the due date.</p>
+<p>Below are basic descriptions of each category of assignments for this semester. More details are available on the individual pages for each assignment. Please be sure to check the due dates on each assignment and come to class on those days ready to discuss your work in small groups.</p>
 <div id="homework" class="section level2">
 <h2>Homework</h2>
-<p>Please submit all of your homework answers as a PDF through <strong>Canvas</strong>. You can use Word and “print” to PDF, but I strongly encourage you to use <code>RMarkdown</code>, which will help you to easily create PDFs and is much better for writing data-oriented documents. <code>RMarkdown</code> via our AWS access is also cloud-based.</p>
-<p>Each homework assignment is worth 30 points toward your final grade (11% each) and consists of 10 individual questions. Each question is worth 3 points, graded as follows:</p>
-<ul>
-<li><strong>3 points:</strong> Correct answer</li>
-<li><strong>2 points:</strong> Good try and close, but with minor mistakes</li>
-<li><strong>1 point:</strong> Incomplete work but an attempt nonetheless</li>
-<li><strong>0 points:</strong> No work toward the answer (e.g., completely blank or no clear attempt to solve)</li>
-</ul>
 <p>The homework assignments are almost entirely empirical, with each assignment focusing on a specific identification strategy, research question, and health-related dataset. I will provide all answers in <code>R</code>; however, you are free to use any software you’d like. Just keep in mind that I will be best able to answer your questions if you also use <code>R</code>. I can also answer most any question if you choose to use <code>Stata</code>. I can point you in the right direction with <code>Python</code>, but I likely can’t provide you with any sample code or specific syntax advice.</p>
+<p>Please submit all of your homework answers as a link to a GitHub repository through Canvas. If you keep the repository private, please be sure to share the repository with me using my <em><a href="mailto:ian.mccarthy@emory.edu" class="email">ian.mccarthy@emory.edu</a></em> email address. I strongly encourage you to use <code>RMarkdown</code>, which will help you to easily create PDFs and is much better for writing data-oriented documents. If you are not familiar with <code>R Markdown</code>, take a look at the following resources:</p>
+<ul>
+<li><a href="https://bookdown.org/yihui/rmarkdown/">R Markdown: The Definitive Guide</a></li>
+<li><a href="https://www.stat.cmu.edu/~cshalizi/rmarkdown/">Using R Markdown for Class Reports</a></li>
+</ul>
+<p>If you’re new to <code>R Markdown</code>, then there will be some growing pains. Please be patient with yourself and stick to it. One of the goals of the course is to develop good workflow habits. This means doing work in a way that minimizes mistakes and maximizes reproducibility. <code>R Markdown</code> exists exactly for these reasons. It allows you to keep your data analysis and the description of that analysis together in a single document or group of documents. It’s really easy to introduce mistakes when copying and pasting empirical results into a text document, and it’s even easier to waste hours (<em>days/weeks?</em>) re-pasting results into your text document and re-writing the results accordingly. Doing everything in <code>R Markdown</code> avoids all of these issues. In the long run, it’s much more efficient.</p>
+<p>Note that, for your submission, I do <strong>not</strong> need to see all of your code. You can include snippets of code files to highlight the most important parts of your work, but please don’t include all of your code or large printouts of data in the final PDF submission.</p>
+<p>Each homework assignment is worth 30 points toward your final grade (12% each) and consists of 10 individual questions. Each question is worth 3 points, graded as follows:</p>
+<ul>
+<li>1 point for an attempted answer as of the initial due date</li>
+<li>1 point for an attempted answer as of the revision date</li>
+<li>1 point for a correct final answer as of the final due date</li>
+</ul>
+<p>Due to the staged structure of each assignment, your GitHub repository should include <strong>three</strong> answer keys. To make it easy to navigate everyone’s repositories, we need everyone to adopt the same directory structure and naming convention. Please be sure to name your solution documents as follows: <code>lastname-firstinitial-hwk(num)-(submission num)</code>. For example, if I’m finalizing the initial submission for homework 1, then the file should be named <code>mccarthy-i-hwk1-1.pdf</code>. A complete directory structure is provided below. Please adopt this structure as it will also help you to keep your analysis and data organized. Finally, please note that you <strong>should not</strong> include the “data” folder in git or github. The data files are too big and should never be tracked in that way. Instead, please be sure to add the data folder to your gitignore file.</p>
+<pre><code>homework1
+|   README.md
+|   mccarthy-i-hwk1-1.pdf
+|   mccarthy-i-hwk1-2.pdf
+|   mccarthy-i-hwk1-3.pdf
+|
+|---data (not tracked in git or pushed to github)
+|   |   input (symbolic links)
+|   |   output (analytic data sets)
+|
+|---data-code
+|   |   _build-data.R
+|   |   1_data1.R
+|   |   2_data2.R
+|
+|---results
+|   |   table1.tex
+|   |   figure1.png
+|   |   hwk1_workspace.R
+|</code></pre>
 </div>
 <div id="project" class="section level2">
 <h2>Project</h2>
-<p>We do not have a final exam in this class. Instead, we have a final project that asks you to select from a list of pre-approved research questions and use the relevant data/identification strategy to answer this question. Please see the <a href="/assignment/project/">Final Project</a> for more details.</p>
+<p>We do not have a final exam in this class. Instead, we have a final project that asks you to submit a 5-page policy brief. Please see the <a href="/assignment/project/">Final Project</a> for more details.</p>
 </div>
 <div id="participation" class="section level2">
 <h2>Participation</h2>
-<p>“Participation” in each week will be graded based on how many of the weekly participation elements are submitted, specifically:</p>
-<ul>
-<li><strong>2 points:</strong> Submission of a weekly check-in and completion of in-class “quiz”</li>
-<li><strong>1 point:</strong> Submission of the check-in or completion of the quiz, but not both</li>
-<li><strong>0 points:</strong> No submission of a check-in and no completion of the quiz</li>
-</ul>
-<p>Your final participation grade in the class is worth 15 points toward your final grade. We’ll have well over 15 total “participation” points available, so you have some margin for error here.</p>
-<p><strong>UPDATE:</strong> Due to potential COVID absences, quarantines, etc., the participation grade for this semester will be based on your weekly check-ins. Everyone will receive 5 points for the in-class “quiz” component, leaving 10 additional points to be earned via weekly check-ins. We still have more than 10 weeks in the semester, so there remains a margin for error in the participation grade.</p>
+<p>Participation is graded based on your engagement in small-group homework discussions. At the end of each assignment review day (the final due date for each assignment), each member of each small group will be asked to evaluate their peers on a scale of 1-3, with 3 indicated high level of engagement and effort with the group. Please see the <a href="/assignment/participation/">Participation</a> for more details on the peer evaluation process.</p>
+<p>Your median score across peers in your group will be your participation grade in that assignment. At the end of the semester, your peer grades will be totaled. Your final participation grade is then based on your total number of points out of 10. Note that there are 15 possible points, so there is some margin for error.</p>
 </div>
