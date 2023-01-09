@@ -22,9 +22,13 @@ knitr::opts_chunk$set(echo = TRUE)
 # Instructions
 For the main project, you will write a 5-page policy brief and discuss your policy among the class. **Check back soon for details on the format of the policy brief and the grading rubric.**
 
+# Important dates
+- Select a topic no later than **March 15, 2023**. I've provided a list of possible in the [Policy Topics] section, but you are free to select other topics based on your own interests.
+- 
+
 
 # Policy Topics
-Below are some potential policy questions you may consider that closely align with areas we've covered in the class; however, you are not restricted to select from this list. You are free to pursue other questions that may be of more interest to you. Please inform me of your intended area of interest no later than **March 15, 2023**. 
+Below are some potential policy questions you may consider that closely align with areas we've covered in the class; however, you are not restricted to select from this list. You are free to pursue other questions that may be of more interest to you. 
 
 ## Hospital Pricing. 
 This topic uses the [HCRIS Repo](https://github.com/imccart/HCRIS).
