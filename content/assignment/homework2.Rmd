@@ -1,8 +1,8 @@
 ---
 title: "Homework 2"
 linktitle: "Homework 2"
-due_date: "2022-02-25"
-due_time: "11:59 PM"
+due_date: "2023-02-20"
+due_time: "10:00am"
 output:
   blogdown::html_page:
     toc: false
@@ -18,6 +18,10 @@ type: docs
 knitr::opts_chunk$set(echo = TRUE)
 
 ```
+
+- **Initial due date, 2/13**
+- **Revision date, 2/15**
+
 
 # Instructions
 In this assignment, you'll recreate the HCRIS data and answer a few questions along the way. The first step is to make sure you're working with the [HCRIS GitHub repository](https://github.com/imccart-test/hcris) and downloaded all of the raw data sources. Once you have the data downloaded and the code running, answer the following questions:

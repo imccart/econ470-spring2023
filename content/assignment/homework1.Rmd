@@ -1,8 +1,8 @@
 ---
 title: "Homework 1"
 linktitle: "Homework 1"
-due_date: "2022-02-01"
-due_time: "11:59 PM"
+due_date: "2023-01-30"
+due_time: "10:00am"
 output:
   blogdown::html_page:
     toc: false
@@ -17,25 +17,18 @@ type: docs
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+- **Initial due date, 1/23**
+- **Revision date, 1/25**
+
 # Instructions
-This assignment is just about GitHub and data management. The goal is to give you a chance to practice wrangling and tidying data. We do this very early in the class because soon (**next week**) we will start doing some empirical analysis using real data. The sooner you are comfortable with the datasets, the better.
-
-Please turn in your empirical work as a PDF in Canvas. I recommend creating this PDF using `R Markdown`. If you are not familiar with `R Markdown`, take a look at the following resources:
-
-- [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
-- [Using R Markdown for Class Reports](https://www.stat.cmu.edu/~cshalizi/rmarkdown/)
-
-If you're new to `R Markdown`, then there will be some growing pains. Please be patient with yourself and stick to it. One of the goals of the course is to develop good workflow habits. This means doing work in a way that minimizes mistakes and maximizes reproducability. `R Markdown` exists exactly for these reasons. It allows you to keep your data analysis and the description of that analysis together in a single document or group of documents. It's really easy to introduce mistakes when copying and pasting empirical results into a text document, and it's even easier to waste hours (*days/weeks?*) re-pasting results into your text document and re-writing the results accordingly. Doing everything in `R Markdown` avoids all of these issues. In the long run, it's much more efficient.
-
-Note that, for your submission, I do **not** need to see all of your code. You can include snippets of code files to highlight the most important parts of your work, but please don't include all of your code or large printouts of data in the final PDF submission.
-
+This assignment is just about GitHub and data management. The goal is to give you a chance to practice wrangling and tidying data. We do this very early in the class because we will start doing some empirical analysis using real data soon. The faster you are comfortable with the datasets, the better. For more detailed instructions on how to submit your homework answers, please see the overview page [here](/assignment/).
 
 # Building the data
-The purpose of this part of the assignment is essentially to practice database management. Most of your professional lives will likely involve managing data. It can be tedious but also extremely rewarding when you finally get to find out what's going on in the analysis stage. Anyway, let's get to work! All of these questions require you to use the [Medicare Advantage GitHub Repo](https://github.com/imccart-test/ma).
+The purpose of this part of the assignment is essentially to practice database management. Most of your professional lives will likely involve managing data. It can be tedious but also extremely rewarding when you finally get to find out what's going on in the analysis stage. Anyway, let's get to work! All of these questions require you to use the [Medicare Advantage GitHub Repo](https://github.com/imccart-class/ma).
 
 
 ## Enrollment Data
-Run the `R` code to organize the [Monthly Plan Enrollment Data](https://github.com/imccart-test/ma/blob/master/R_code/1_Plan_Data_Alt.R). Once you've created your final dataset (it's called *full_ma_data* in my code), answer the following:
+Run the `R` code to organize the [Monthly Plan Enrollment Data](https://github.com/imccart-class/ma/blob/master/R_code/1_Plan_Data.R). Once you've created your final dataset (it's called *full_ma_data* in my code), answer the following:
 
 1. How many observations exist in your current dataset? 
 
@@ -55,7 +48,7 @@ knitr::kable(test.data, col.names=c("2010","2011","2012","2013","2014","2015"),
 
 4. Remove all special needs plans (SNP), employer group plans (eghp), and all "800-series" plans. Provide an updated version of Table \@ref(tab:plancount) after making these exclusions.
 
-5. Merge the contract service area data to the enrollment data, and restrict the data only to contracts that are approved in their respective counties. The `R` script to create the service area dataset is here: [Contract Service Area](https://github.com/imccart-test/ma/blob/master/R_code/3_Service_Areas.R). And you can follow the [_BuildFinalData.r](https://github.com/imccart-test/ma/blob/master/R_code/_BuildFinalData.R) script to see where/how I join the datasets. The join takes place in the following section of the code:
+5. Merge the contract service area data to the enrollment data, and restrict the data only to contracts that are approved in their respective counties. The `R` script to create the service area dataset is here: [Contract Service Area](https://github.com/imccart-class/ma/blob/master/R_code/3_Service_Areas.R). And you can follow the [_BuildFinalData.r](https://github.com/imccart-class/ma/blob/master/R_code/_BuildFinalData.R) script to see where/how I join the datasets. The join takes place in the following section of the code:
 
 ```{r, eval=F, echo=T}
 final.data <- full.ma.data %>%
@@ -71,9 +64,9 @@ final.data <- full.ma.data %>%
 6. Finally, limit your dataset only to plans with non-missing enrollment data. Provide a graph showing the average number of Medicare Advantage enrollees per county from 2008 to 2015. Be sure to format your graph in a meaningful way as we did in class.
 
 ## Premium Data
-Now we're going to incorporate the plan premium information. This is part of the "Plan Characteristics" data, and the underlying `R` scripts for these files can be found here: [Plan Characteristics](https://github.com/imccart-test/ma/blob/master/R_code/2_Plan_Characteristics.R).
+Now we're going to incorporate the plan premium information. This is part of the "Plan Characteristics" data, and the underlying `R` scripts for these files can be found here: [Plan Characteristics](https://github.com/imccart-class/ma/blob/master/R_code/2_Plan_Characteristics.R).
 
-1. Merge the plan characteristics data to the dataset you created in Step 6 above. Note that you'll need to join the [Market Penetration Data](https://github.com/imccart-test/ma/blob/master/R_code/4_Penetration_Files.R) in order to get the information you need to merge the plan characteristics. This is because the plan characteristics data only have state name and county (not FIPS codes). The penetration files have both FIPS codes and state/county names, so that dataset serves as a good crosswalk file.
+1. Merge the plan characteristics data to the dataset you created in Step 6 above. Note that you'll need to join the [Market Penetration Data](https://github.com/imccart-class/ma/blob/master/R_code/4_Penetration_Files.R) in order to get the information you need to merge the plan characteristics. This is because the plan characteristics data only have state name and county (not FIPS codes). The penetration files have both FIPS codes and state/county names, so that dataset serves as a good crosswalk file.
 
 2. Provide a graph showing the average premium over time. Don't forget about formatting!
 
