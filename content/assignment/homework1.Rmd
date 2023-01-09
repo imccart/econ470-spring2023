@@ -28,7 +28,7 @@ The purpose of this part of the assignment is essentially to practice database m
 
 
 ## Enrollment Data
-Run the `R` code to organize the [Monthly Plan Enrollment Data](https://github.com/imccart-class/ma/blob/master/R_code/1_Plan_Data.R). Once you've created your final dataset (it's called *full_ma_data* in my code), answer the following:
+Run the `R` code to organize the [Monthly Plan Enrollment Data](https://github.com/imccart-class/ma/blob/master/R_code/1_Plan_Data_Alt.R). Once you've created your final dataset (it's called *full_ma_data* in my code), answer the following:
 
 1. How many observations exist in your current dataset? 
 
@@ -36,7 +36,6 @@ Run the `R` code to organize the [Monthly Plan Enrollment Data](https://github.c
 
 3. Provide a table of the count of plans under each plan type in each year. Your table should look something like Table \@ref(tab:plancount).
 
-<center>
 ```{r, include=F}
 test.data <- matrix(round(runif(15,10,50),0),nrow=3, ncol=6)
 row.names(test.data) <- c("Type 1", "Type 2", "Type 3")
@@ -46,7 +45,6 @@ row.names(test.data) <- c("Type 1", "Type 2", "Type 3")
 knitr::kable(test.data, col.names=c("2010","2011","2012","2013","2014","2015"),
              type="html", caption = "Plan Count by Year", booktabs = TRUE)
 ```
-</center>
 
 4. Remove all special needs plans (SNP), employer group plans (eghp), and all "800-series" plans. Provide an updated version of Table \@ref(tab:plancount) after making these exclusions.
 
