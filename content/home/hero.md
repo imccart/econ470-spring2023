@@ -24,7 +24,7 @@ title = "Research in Health Economics"
 
 # Note. An optional note to show underneath the links.
 [cta_note]
-  label = 'Spring 2022<br>Department of Economics<br>Emory University'
+  label = 'Spring 2023<br>Department of Economics<br>Emory University'
 +++
 
 **Combining health economics and human health with causal inference and data science.**
