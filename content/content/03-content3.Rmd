@@ -1,0 +1,53 @@
+---
+title: "Module 3, Part 3: RD in Practice"
+linktitle: "M3.3: Star Ratings"
+menu:
+  content:
+    parent: Module 3
+    weight: 4
+type: docs
+bibliography: "../../static/bib/BibTeX_Library.bib"
+csl: "../../static/bib/chicago-syllabus-no-bib.csl"
+output:
+  blogdown::html_page:
+    toc: false
+---
+
+```{r setup, include = FALSE, cache = FALSE}
+knitr::opts_chunk$set(error = TRUE, comment = NA, warnings = FALSE, errors = FALSE, messages = FALSE, tidy = FALSE, echo = FALSE)
+```
+
+In Part 3 of this module, we'll work with a real-life example of RD using Medicare Advantage star ratings.
+
+## Objectives
+- Explain optimal bin width and bandwidth calculations
+- Define "manipulation" of the running variable
+- Define what we mean by "covariate balance" and why it matters for RDD
+
+
+## Activities 
+- Implement an RD strategy with Medicare Advantage star ratings
+- Test for manipulation of the running variable
+- Test for covariate balance
+
+
+## Slides
+
+Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the embedded slides and navigate through them with your left and right arrow keys.
+
+:::fyi
+**Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of special slide-specific commands.
+:::
+
+
+<center>
+
+```{r}
+knitr::include_url("https://imccart.github.io/econ470-content/03-ma-quality/03-ma-quality3.html")
+```
+
+
+<p><a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/03-ma-quality/03-ma-quality3.html"><i class="fas fa-external-link-alt"></i> View all slides in new window</a> <a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/03-ma-quality/03-ma-quality3.pdf" role="button"><i class="far fa-file-pdf"></i> Download PDF of all slides</a></p>
+
+</center>
+

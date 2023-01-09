@@ -1,0 +1,51 @@
+---
+title: "Module 4, Part 1: Medicaid Expansion and ACA"
+linktitle: "M4.1: Medicaid and ACA"
+menu:
+  content:
+    parent: Module 4
+    weight: 2
+type: docs
+bibliography: "../../static/bib/BibTeX_Library.bib"
+csl: "../../static/bib/chicago-syllabus-no-bib.csl"
+output:
+  blogdown::html_page:
+    toc: false
+---
+
+```{r setup, include = FALSE, cache = FALSE}
+knitr::opts_chunk$set(error = TRUE, comment = NA, warnings = FALSE, errors = FALSE, messages = FALSE, tidy = FALSE, echo = FALSE)
+```
+
+The goal of Part 1 of this module is to understand Medicaid expansion and its implementation as part of the ACA, as well as our data sources for examining the effects of Medicaid expansion on insurance.
+
+
+## Objectives
+- Explain what we mean by "Medicaid expansion"
+- Understand the ACS data and how to access the data in R
+
+## Activities 
+- Import ACS data via API in R
+- Summarize insurance status over time
+
+
+## Slides
+
+Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the embedded slides and navigate through them with your left and right arrow keys.
+
+:::fyi
+**Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of special slide-specific commands.
+:::
+
+
+<center>
+
+```{r}
+knitr::include_url("https://imccart.github.io/econ470-content/04-medicaid-uninsurance/04-medicaid-uninsurance1.html")
+```
+
+
+<p><a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/04-medicaid-uninsurance/04-medicaid-uninsurance1.html"><i class="fas fa-external-link-alt"></i> View all slides in new window</a> <a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/04-medicaid-uninsurance/04-medicaid-uninsurance1.pdf" role="button"><i class="far fa-file-pdf"></i> Download PDF of all slides</a></p>
+
+</center>
+

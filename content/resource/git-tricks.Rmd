@@ -1,0 +1,23 @@
+---
+title: Common Git Tricks
+date: "2022-01-19"
+menu:
+  resource:
+    parent: Resources
+    weight: 3
+type: docs
+weight: 1
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+Below are some of the more common things we'll do this semester with Git and GitHub (aside from your standard commit, push, and pull)
+
+### Clone a repository and set as your own
+1. Clone repository to desktop or AWS
+2. Create your own repository in GitHub
+3. Remove remote, `git remote rm origin`
+4. Set new remote `git remote add origin NEW_URL` (where NEW_URL is your own repository)
+5. git push origin HEAD:master
+6. git push --set-upstream origin master

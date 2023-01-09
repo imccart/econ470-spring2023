@@ -1,0 +1,21 @@
+---
+title: Econometrics
+date: "2022-01-06"
+menu:
+  resource:
+    parent: Resources
+    weight: 2
+type: docs
+weight: 1
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+Lots of faculty put their econometrics lectures and notes online for the world. Below is a list of several that I've found to be particularly useful (in addition to the free online textbooks already used in the class)
+
+- [Causal Inference Book](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/) by Jamie Robin and Miguel Hernan
+- [Econometrics](https://www.ssc.wisc.edu/~bhansen/econometrics/) by Bruce Hansen
+- [Introductory Econometrics](https://github.com/NickCH-K/econometrics) class notes from Nick Huntington-Klein
+- [Econometrics Notes](http://www.carolinacaetano.net/) from Carolina Caetano at UGA
+- Ever wish you had a central resource for lots of little commands and how to do things in different stats packages? Nick Huntington-Klein thought the same thing in his [Library of Statistical Techniques (LOST)](https://lost-stats.github.io/).

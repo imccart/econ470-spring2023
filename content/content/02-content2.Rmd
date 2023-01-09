@@ -1,0 +1,51 @@
+---
+title: "Module 2, Part 2: Instrumental Variables"
+linktitle: "M2.2: IV"
+menu:
+  content:
+    parent: Module 2
+    weight: 2
+type: docs
+bibliography: "../../static/bib/BibTeX_Library.bib"
+csl: "../../static/bib/chicago-syllabus-no-bib.csl"
+output:
+  blogdown::html_page:
+    toc: false
+---
+
+```{r setup, include = FALSE, cache = FALSE}
+knitr::opts_chunk$set(error = TRUE, comment = NA, warnings = FALSE, errors = FALSE, messages = FALSE, tidy = FALSE, echo = FALSE)
+```
+
+In part 2, we formally introduce instrumental variables and discuss some of the thorny issues associated with IV in practice (namely, testing for instrument validity and interpreting the results).
+
+
+## Objectives
+- Understand and describe the problem of weak instruments and how to test for weak instruments empirically
+- Define and explain a local average treatment effect
+
+
+## Activities 
+- Continue work with the [CDC Tax Burden on Tobacco](https://github.com/imccart/CDC-Tobacco) data
+- Data simulation and practical issues with IV
+
+
+## Slides
+Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the embedded slides and navigate through them with your left and right arrow keys.
+
+:::fyi
+**Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of special slide-specific commands.
+:::
+
+
+<center>
+
+```{r}
+knitr::include_url("https://imccart.github.io/econ470-content/02-smoking/02-smoking2.html")
+```
+
+
+<p><a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/02-smoking/02-smoking2.html"><i class="fas fa-external-link-alt"></i> View all slides in new window</a> <a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/02-smoking/02-smoking2.pdf" role="button"><i class="far fa-file-pdf"></i> Download PDF of all slides</a></p>
+
+</center>
+

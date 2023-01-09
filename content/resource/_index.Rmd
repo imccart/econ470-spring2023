@@ -1,0 +1,21 @@
+---
+title: General information
+date: "2022-01-04"
+menu:
+  resource:
+    parent: Resources
+    weight: -1
+type: docs
+weight: 1
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+Here are a few additional resources that you may find helpful throughout the semester. I'll add to these as we go.
+
+- [How to read an academic article](https://guides.libraries.emory.edu/c.php?g=971000&p=7017430). We will review and discuss a few academic articles throughout the semester.
+- Some resources for honing your data analysis skills in `R`:
+    + [R for Data Science](https://r4ds.had.co.nz/) by Hadley Wickham and Garrett Grolemund. This is the go-to resource for starting to work with `R`. Highly recommended, free, and informative.
+    + [R Language Basics](https://raw.githack.com/uo-ec607/lectures/master/04-rlang/04-rlang.html#1) by Grant McDermott
+    + [Data cleaning and wrangling in R](https://raw.githack.com/uo-ec607/lectures/master/05-tidyverse/05-tidyverse.html#1) by Grant McDermott

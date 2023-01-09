@@ -1,0 +1,15 @@
+---
+title: Navigating the site
+date: "2022-01-03"
+menu:
+  content:
+    parent: Overview
+type: docs
+weight: -1
+---
+
+The class content is organized around five modules. Each module has a set of presentation slides, and on each class session page you'll see buttons for opening the presentation in a new tab or for downloading a PDF of the slides in case you want to print them or store them on your computer:
+
+<p style="text-align:center;"><span class="btn btn-primary btn-lg"><i class="fas fa-external-link-alt"></i> View all slides in new window</span> <span class="btn btn-primary btn-lg"><i class="far fa-file-pdf"></i> Download PDF of all slides</span></p>
+
+We'll spend three to four weeks on each module. For every week, there are slides and specific objectives/activities for the week. These slides and objectives are listed as part of each module and are available on the navigation pane.

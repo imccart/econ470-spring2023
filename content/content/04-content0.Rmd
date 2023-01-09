@@ -1,0 +1,36 @@
+---
+title: "Module 4: Medicaid Expansion and Difference-in-Differences"
+linktitle: "M4: Overview"
+menu:
+  content:
+    parent: Module 4
+    weight: 1
+type: docs
+bibliography: "../../static/bib/BibTeX_Library.bib"
+csl: "../../static/bib/chicago-syllabus-no-bib.csl"
+output:
+  blogdown::html_page:
+    toc: false
+---
+
+```{r setup, include = FALSE, cache = FALSE}
+knitr::opts_chunk$set(error = TRUE, comment = NA, warnings = FALSE, errors = FALSE, messages = FALSE, tidy = FALSE, echo = FALSE)
+```
+
+The goal of this module is to understand difference-in-differences as a causal identification strategy. We'll do this in the context of Medicaid expansion and its effect on uninsurance. 
+
+
+## Readings and other links
+
+Links to papers are listed alongside the full reference. PDFs of each paper are also available on **Canvas**.
+
+- <i class="fas fa-book"></i> Required readings for this module:
+    - Chapters 8-9 of [Causal Inference: The Mixtape](https://mixtape.scunning.com/)
+    - Chapters 16-18 of [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/)
+- <i class="fas fa-external-link-square-alt"></i> Supplemental information and readings:
+    - Chapter 5 of [@angrist2009]
+    - [@courtemanche2017]
+    - [@obama2016]    
+- <i class="fa fa-database"></i> Data for this module:
+    - [Insurance Access and Medicaid Expansion](https://github.com/imccart-test/insurance-access) repository
+

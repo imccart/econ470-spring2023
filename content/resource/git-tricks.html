@@ -1,0 +1,34 @@
+---
+title: Common Git Tricks
+date: "2022-01-19"
+menu:
+  resource:
+    parent: Resources
+    weight: 3
+type: docs
+weight: 1
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+<div id="TOC">
+<ul>
+<li><a href="#clone-a-repository-and-set-as-your-own">Clone a repository and set as your own</a></li>
+</ul>
+</div>
+
+<p>Below are some of the more common things we’ll do this semester with Git and GitHub (aside from your standard commit, push, and pull)</p>
+<div id="clone-a-repository-and-set-as-your-own" class="section level3">
+<h3>Clone a repository and set as your own</h3>
+<ol style="list-style-type: decimal">
+<li>Clone repository to desktop or AWS</li>
+<li>Create your own repository in GitHub</li>
+<li>Remove remote, <code>git remote rm origin</code></li>
+<li>Set new remote <code>git remote add origin NEW_URL</code> (where NEW_URL is your own repository)</li>
+<li>git push origin HEAD:master</li>
+<li>git push –set-upstream origin master</li>
+</ol>
+</div>

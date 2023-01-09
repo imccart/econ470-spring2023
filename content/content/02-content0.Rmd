@@ -1,0 +1,36 @@
+---
+title: "Module 2: Demand for Cigarettes and Instrumental Variables"
+linktitle: "M2: Overview"
+menu:
+  content:
+    parent: Module 2
+    weight: 1
+type: docs
+bibliography: "../../static/bib/BibTeX_Library.bib"
+csl: "../../static/bib/chicago-syllabus-no-bib.csl"
+output:
+  blogdown::html_page:
+    toc: false
+---
+
+```{r setup, include = FALSE, cache = FALSE}
+knitr::opts_chunk$set(error = TRUE, comment = NA, warnings = FALSE, errors = FALSE, messages = FALSE, tidy = FALSE, echo = FALSE)
+```
+
+The goal of this module is to understand instrumental variables as a causal identification strategy. We'll do this in the context of smoking and cigarette prices. Effectively, we want to estimate a demand curve for cigarettes, accounting for the fact that price is an outcome of the demand function and therefore endogenous.
+
+
+## Readings and other links
+
+Links to papers are listed alongside the full reference. PDFs of each paper are also available on **Canvas**.
+
+- <i class="fas fa-book"></i> Required readings for this module:
+    - Chapter 7 of [Causal Inference: The Mixtape](https://mixtape.scunning.com/)
+    - Chapter 19 of [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/)
+- <i class="fas fa-external-link-square-alt"></i> Supplemental information and readings:
+    - Chapter 4 of [@angrist2009]
+    - [@gruber2001]. Paper link [here](https://www.aeaweb.org/articles?id=10.1257/jep.15.2.193).
+    - [@ross2003]. Paper link [here](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.532.2071&rep=rep1&type=pdf)
+- <i class="fa fa-database"></i> Data for this module:
+    - [CDC Tax Burden on Tobacco](https://github.com/imccart-test/cdc-tobacco)
+

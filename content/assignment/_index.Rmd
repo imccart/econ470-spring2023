@@ -1,0 +1,42 @@
+---
+title: General information
+date: "2022-01-03"
+menu:
+  assignment:
+    parent: Assignments
+    weight: 1
+type: docs
+weight: -1
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+Below are basic descriptions of each category of assignments for this semester. More details are available on the individual pages for each assignment. Please be sure to check the due dates on each assignment. Late assignments will receive an automatic 2% reduction in the grade for each day the assignment is turned in after the due date.
+
+## Homework
+Please submit all of your homework answers as a PDF through **Canvas**. You can use Word and "print" to PDF, but I strongly encourage you to use `RMarkdown`, which will help you to easily create PDFs and is much better for writing data-oriented documents. `RMarkdown` via our AWS access is also cloud-based.
+
+Each homework assignment is worth 30 points toward your final grade (11% each) and consists of 10 individual questions. Each question is worth 3 points, graded as follows:
+
+- **3 points:** Correct answer
+- **2 points:** Good try and close, but with minor mistakes
+- **1 point:** Incomplete work but an attempt nonetheless
+- **0 points:** No work toward the answer (e.g., completely blank or no clear attempt to solve)
+
+The homework assignments are almost entirely empirical, with each assignment focusing on a specific identification strategy, research question, and health-related dataset. I will provide all answers in `R`; however, you are free to use any software you'd like. Just keep in mind that I will be best able to answer your questions if you also use `R`. I can also answer most any question if you choose to use `Stata`. I can point you in the right direction with `Python`, but I likely can't provide you with any sample code or specific syntax advice.
+
+
+## Project
+We do not have a final exam in this class. Instead, we have a final project that asks you to select from a list of pre-approved research questions and use the relevant data/identification strategy to answer this question. Please see the [Final Project](/assignment/project/) for more details.
+
+## Participation
+"Participation" in each week will be graded based on how many of the weekly participation elements are submitted, specifically: 
+
+- **2 points:** Submission of a weekly check-in and completion of in-class "quiz"
+- **1 point:** Submission of the check-in or completion of the quiz, but not both
+- **0 points:** No submission of a check-in and no completion of the quiz
+
+Your final participation grade in the class is worth 15 points toward your final grade. We'll have well over 15 total "participation" points available, so you have some margin for error here.
+
+**UPDATE:** Due to potential COVID absences, quarantines, etc., the participation grade for this semester will be based on your weekly check-ins. Everyone will receive 5 points for the in-class "quiz" component, leaving 10 additional points to be earned via weekly check-ins. We still have more than 10 weeks in the semester, so there remains a margin for error in the participation grade.
