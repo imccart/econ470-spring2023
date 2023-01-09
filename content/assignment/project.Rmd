@@ -23,9 +23,14 @@ knitr::opts_chunk$set(echo = TRUE)
 For the main project, you will write a 5-page policy brief and discuss your policy among the class. **Check back soon for details on the format of the policy brief and the grading rubric.**
 
 # Important dates
-- Select a topic no later than **March 15, 2023**. I've provided a list of possible in the [Policy Topics] section, but you are free to select other topics based on your own interests.
-- 
+- Select a topic no later than **February 20, 2023**. I've provided a list of possible ideas in the [Policy Topics] section, but you are free to select other topics based on your own interests.
+- Provide an [Annotated Bibliography] by **March 20, 2023**. This is worth 30 points toward the final project grade.
+- Provide a [Preliminary Analysis] by **April 10, 2023**. This is worth 60 points toward the final project grade.
 
+
+# Annotated Bibliography
+
+# Preliminary Analysis
 
 # Policy Topics
 Below are some potential policy questions you may consider that closely align with areas we've covered in the class; however, you are not restricted to select from this list. You are free to pursue other questions that may be of more interest to you. 

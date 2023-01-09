@@ -5,13 +5,13 @@ lessons:
   - title: '<span class="content-title">Data and Version Control</span>'
     session: "Class 1"
     date: "Jan 11"
-    content: "00-content1"
+    content: "00-1-setup"
     bg: 1
 
   - title: '<span class="content-title">Introduction to Causal Inference</span>'
     session: "Class 2"
     date: "Jan 18"
-    content: "00-content2"
+    content: "00-2-causal-inference"
     bg: 2
     bottomborder: True
 
