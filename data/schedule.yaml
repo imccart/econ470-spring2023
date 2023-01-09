@@ -2,24 +2,26 @@ lessons:
   - title: 'Module 0: Getting Started'
     header: True
 
-  - title: '<span class="content-title">Introduction</span>'
+  - title: '<span class="content-title">Data and Version Control</span>'
     session: "Class 1"
-    date: "Jan 12"
+    date: "Jan 11"
     content: "00-content1"
     bg: 1
-    bottomborder: True    
 
-
-  - title: '<span class="content-title">Data and Version Control</span>'
+  - title: '<span class="content-title">Introduction to Causal Inference</span>'
     session: "Class 2"
-    date: "Jan 19"
+    date: "Jan 18"
     content: "00-content2"
-    bg: 1
-    
-  - title: 'Check-in 1'
-    date: "Jan 21"
-    assignment: "weekly-check-in"
     bg: 2
+    bottomborder: True
+
+
+  - title: '<i class="fas fa-star"></i> Homework 1'
+    session: "Class 3-4"
+    date: "Jan 23, 25"
+    content: "00-content3"    
+    assignment: "homework1"
+    bg: 3
     bottomborder: True
 
 
@@ -27,208 +29,100 @@ lessons:
     header: True
 
   - title: '<span class="content-title">Hospital Prices and HCRIS Data</span>'
-    session: "Class 3-4"
-    date: "Jan 24, 26"
+    session: "Class 5-6"
+    date: "Jan 30, Feb 1"
     content: "01-content1"
     bg: 1
 
-  - title: 'Check-in 2'
-    date: "Jan 28"
-    assignment: "weekly-check-in"
-    bg: 2
-    bottomborder: True
-
-  - title: '<span class="content-title">Introduction to Causal Inference</span>'
-    session: "Class 5-6"
-    date: "Jan 31, Feb 2"
+  - title: '<span class="content-title">Selection on Observables</span>'
+    session: "Class 7-8"
+    date: "Feb 6, 8"
     content: "01-content2"
-    bg: 1
-
-  - title: '<i class="fas fa-star"></i> Homework 1'
-    date: "Feb 1"
-    assignment: "homework1"
     bg: 2
 
-  - title: 'Check-in 3'
-    date: "Feb 4"
-    assignment: "weekly-check-in"
+  - title: '<i class="fas fa-star"></i> Homework 2'
+    session: "Class 9-10"  
+    date: "Feb 13, 15"
+    content: "01-content3"
+    assignment: "homework2"
     bg: 3
     bottomborder: TRUE
-
-  - title: '<span class="content-title">Matching or Weighting</span>'
-    session: "Class 7-8"
-    date: "Feb 7, 9"
-    content: "01-content3"
-    bg: 1
-
-  - title: 'Check-in 4'
-    date: "Feb 11"
-    assignment: "weekly-check-in"
-    bg: 2
-    bottomborder: TRUE    
-
-
-  - title: '<span class="content-title">Application to Hospital Pricing</span>'
-    session: "Class 9-10"
-    date: "Feb 14, 16"
-    content: "01-content4"
-    bg: 1
-
-  - title: 'Check-in 5'
-    date: "Feb 18"
-    assignment: "weekly-check-in"
-    bg: 2
-    bottomborder: True
-
 
   - title: 'Module 2: Demand for Cigarettes and Instrumental Variables'
     header: True
 
-
   - title: '<span class="content-title">Smoking and CDC Data</span>'
     session: "Class 11-12"
-    date: "Feb 21, 23"
+    date: "Feb 20, 22"
     content: "02-content1"
     bg: 1
 
-
-  - title: 'Check-in 6'
-    date: "Feb 25"
-    assignment: "weekly-check-in"
+  - title: '<span class="content-title">Instrumental Variables</span>'
+    session: "Class 13-14"
+    date: "Feb 27, Mar 1"
+    content: "02-content2"
     bg: 2
-    
-  - title: '<i class="fas fa-star"></i> Homework 2'
-    date: "Feb 25"
-    assignment: "homework2"
+
+
+  - title: '<i class="fas fa-star"></i> Homework 3'
+    session: "Class 15-16"
+    date: "March 13, 15"
+    assignment: "homework3"
+    content: "02-content3"
     bg: 3
     bottomborder: True    
 
-
-  - title: '<span class="content-title">Instrumental Variables</span>'
-    session: "Class 13-14"
-    date: "Feb 28, Mar 2"
-    content: "02-content2"
-    bg: 1
-
-  - title: 'Check-in 7'
-    date: "Mar 4"
-    assignment: "weekly-check-in"
-    bg: 2
-    bottomborder: True
-
-
-  - title: '<span class="content-title">Estimating Demand for Cigarettes</span>'
-    session: "Class 15-16"
-    date: "Mar 14, 16"
-    content: "02-content3"
-    bg: 1
-
-  - title: 'Check-in 8'
-    date: "Mar 18"
-    assignment: "weekly-check-in"
-    bg: 2
-
-  - title: '<i class="fas fa-star"></i> Homework 3'
-    date: "Mar 18"
-    assignment: "homework3"
-    bg: 3
-    bottomborder: True
 
 
   - title: 'Module 3: Medicare Advantage and Regression Discontinuity'
     header: True
 
   - title: '<span class="content-title">Medicare Advantage (MA) and MA Data</span>'
-    session: "Class 17-18"
-    date: "Mar 21, 23"
+    session: "Class 16-17"
+    date: "Mar 20, 22"
     content: "03-content1"
     bg: 1
 
-  - title: 'Check-in 9'
-    date: "Mar 25"
-    assignment: "weekly-check-in"
-    bg: 2
-    bottomborder: True
-
-
   - title: '<span class="content-title">Regression Discontinuity</span>'
-    session: "Class 19-20"
-    date: "Mar 28, 30"
+    session: "Class 18-19"
+    date: "Mar 27, 29"
     content: "03-content2"
-    bg: 1
-
-  - title: 'Check-in 10'
-    date: "Apr 1"
-    assignment: "weekly-check-in"
     bg: 2
-    bottomborder: True
 
-
-  - title: '<span class="content-title">Quality ratings and insurance choice</span>'
-    session: "Class 21-22"
-    date: "Apr 4, 6"
-    content: "03-content3"
-    bg: 1
-
-  - title: 'Check-in 11'
-    date: "Apr 8"
-    assignment: "weekly-check-in"
-    bg: 2
 
   - title: '<i class="fas fa-star"></i> Homework 4'
-    date: "Apr 8"
+    session: "Class 20-21"  
+    date: "Apr 3, 5"
+    content: "03-content3"
     assignment: "homework4"
     bg: 3
     bottomborder: True
 
+
   - title: 'Module 4: Medicaid Expansion and Panel Data'
     header: True
 
-  - title: '<span class="content-title">The ACA and Medicaid Expansion</span>'
-    session: "Class 23-24"
-    date: "Apr 11, 13"
-    content: "04-content1"
-    bg: 1
-
-  - title: 'Check-in 12'
-    date: "Apr 15"
-    assignment: "weekly-check-in"
-    bg: 2
-    bottomborder: True
-
-
   - title: '<span class="content-title">Difference-in-Differences</span>'
-    session: "Class 25-26"
-    date: "Apr 18, 20"
+    session: "Class 22-23"
+    date: "Apr 10, 12"
     content: "04-content2"
     bg: 1
 
-  - title: 'Check-in 13'
-    date: "Apr 22"
-    assignment: "weekly-check-in"
+  - title: '<i class="fas fa-star"></i> Homework 5'
+    session: "Class 24-25"
+    date: "Apr 17, 19"
+    assignment: "homework5"
+    content: "04-content3"
     bg: 2
     bottomborder: True
 
 
-  - title: '<span class="content-title">Medicaid Expansion and Uninsurance</span>'
-    session: "Class 27"
-    date: "Apr 25"
-    content: "04-content3"
-    bg: 1
-
-  - title: '<i class="fas fa-star"></i> Homework 5'
-    date: "Apr 25"
-    assignment: "homework5"
-    bg: 3
-    bottomborder: True
-
-
-  - title: 'Final Exam Period'
+  - title: 'Policy Discussion'
     header: True
 
-  - title: '<i class="fas fa-star"></i> **Final Project**'
-    date: "May 2"
+  - title: '<i class="fas fa-star"></i> **Final Policy Briefs**'
+    date: "April 24"
     assignment: "project"
-    bg: 3
+    bg: 1
     bottomborder: True
 
