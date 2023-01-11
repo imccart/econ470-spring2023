@@ -22,12 +22,12 @@ In part 1, we'll get everyone set up with `R`, `RStudio`, and `Git`.
 ## Objectives
 - Introduce the class, goals, structure, etc.
 - Review data manipulation in `R` using the `tidyverse`
-- Demonstrate `RStudio` and clone repo
+- Demonstrate `RStudio`, set up SSH access (some tips available [here](https://happygitwithr.com/ssh-keys)), and create your first repository
 
 
 ## Activities 
 - Set up `R`, `RStudio`, and `Git` on your own machines
-- Clone first repository
+- Create first repository
 
 
 ## Slides
