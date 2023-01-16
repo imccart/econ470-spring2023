@@ -1,5 +1,5 @@
 ---
-title: "Module 0, Part 2: Practice with Real Data"
+title: "Module 0, Part 3: Practice with Real Data"
 linktitle: "M0.3: Data Wrangling in R"
 menu:
   content:
@@ -17,7 +17,7 @@ output:
 knitr::opts_chunk$set(error = TRUE, comment = NA, warnings = FALSE, errors = FALSE, messages = FALSE, tidy = FALSE, echo = FALSE)
 ```
 
-In part 3, we'll introduce and practice many of the basic data management tools you'll need throughout the class.
+In part 3, we'll introduce and practice many of the basic data management tools you'll need throughout the class. We'll do this while we work through the first homework assignment.
 
 ## Objectives
 - Get (more) comfortable with `R`, `RStudio`, `Git`, and `GitHub`
