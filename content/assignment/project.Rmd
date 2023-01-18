@@ -20,17 +20,14 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 # Instructions
-For the main project, you will write a 5-page policy brief and discuss your policy among the class. **Check back soon for details on the format of the policy brief and the grading rubric.**
+For the main project, you will write a 5-page policy brief and discuss your policy among the class. Details of the project are below.
 
 # Important dates
 - Select a topic no later than **February 20, 2023**. I've provided a list of possible ideas in the [Policy Topics] section, but you are free to select other topics based on your own interests.
-- Provide an [Annotated Bibliography] by **March 20, 2023**. This is worth 30 points toward the final project grade.
-- Provide a [Preliminary Analysis] by **April 10, 2023**. This is worth 60 points toward the final project grade.
+- Provide an [Annotated Bibliography] by **March 20, 2023**. This is worth 20 points toward the final project grade.
+- Provide a [Preliminary Analysis] by **April 10, 2023**. This is worth 30 points toward the final project grade.
+- Provide the [Final Brief] by **April 24, 2023**. This is worth 40 points toward the final project grade.
 
-
-# Annotated Bibliography
-
-# Preliminary Analysis
 
 # Policy Topics
 Below are some potential policy questions you may consider that closely align with areas we've covered in the class; however, you are not restricted to select from this list. You are free to pursue other questions that may be of more interest to you. 
@@ -80,3 +77,85 @@ Data on health trends at different geographic levels is available from the Behav
 8. Does Medicaid crowd-out private health insurance?
 
 This can be answered using the existing ACS and Medicaid Expansion repo. While this project doesn't require any additional data collection, it is a challenging exercise and will take additional time to understand the nature of the Medicaid and private health insurance markets. Total time is comparable to other topics.
+
+## Other topics
+While you have wide discretion to select a topic of your choosing, it should remain within the world of health policy and healthcare markets. Additionally, some ideas are better than others, and some ideas are easier than others. When selecting a topic, ask yourself the following questions: What issues are you passionate about? and Where can your voice make a difference? You will be working on this project for an entire semester, so you should pick something you are excited, inspired, motivated, or angry about rather than something that sounds like it will be easy. Also, you are an undergraduate student at Emory living in Georgia. Are there specific issues where your voice, perspective, or framing is especially useful?
+
+
+
+# Annotated Bibliography
+Step 1 is to create an annotated bibliography. This bibliography should organize the relevant sources to be included in your policy brief. You should include both an overview of the topic of your choice — a short paragraph no longer than six sentences — as well as an annotated bibliography including 8-10 high quality sources. At least 6 of those sources must be scholarly articles.
+
+## Selecting sources
+Not all sources are equally good. In fact, many sources are bad – some intentionally misleading and others are just plain sloppy. In advocating for "research and evidence-based policy," it’s critical your brief has a solid foundation. There are high quality sources that aren’t scholarly, of course. You may find it very useful to additionally have sources from news organizations, government websites or publications, official reports, and think tanks. The trick here is to really evaluate the quality and impartiality of the source. Look up the background of think tanks and organizations on Wikipedia or other sources and be clear about how the quality of the source shapes the arguments made in the brief.
+
+Your sources should be carefully selected to contribute different pieces to the puzzle. Make sure you have sources about background/context, other sources more on evaluating policy, perhaps some news stories about recent events. You want your brief to be well-rounded and not missing any big gaps in pertinent information. You may not end up using all the sources in your fact sheet and policy brief, but the more sources you identify now, the easier it will be to refine your points. You may also find that as you’re working on your project, you will need to find new sources. Additionally, sources do not have to be on the exact same topic, but they should relate. Remember that there can be regional, political, and socioeconomic differences (to name a few) that might make some work not generally applicable. 
+
+## Writing annotations
+The annotated bibliography will serve as the foundation for the basic facts you will outline for the reader to understand the problem at hand, and it will provide the basis of the evidence you provide to substantiate your claims. Basically, the annotated bibliography is a bibliography with a brief summary (i.e., annotation) of each source. Your annotations may include the following information:
+
+- What question do(es) the author(s) seek to answer?
+- What is the primary thesis/argument/theory of the work?
+- How is this source relevant to my topic? What aspect of my research question/topic does this source illuminate?
+- What are the main findings? Are there reasons to doubt the evidence? What are some of the problems (e.g. clarity, methodological issues, out-of-date) with the source?
+
+When writing the annotation, you should provide enough information in about three to five (grammatically correct, full) sentences for readers to obtain an accurate understanding of the source’s purpose, content, and value. It should be clear how this article is contributing to your project; you may want to make this explicit. For each source, you should provide the full bibliographic citation followed by a brief analysis of the source (Citation format is your choice. Just be consistent.)
+
+## Rubric for Annotated Bibliography
+The annotated bibliography is worth 20 points toward the final project grade, divided into two parts:
+
+1. **Policy Overview** (10 points). In no more than 6 sentences, the overview should:
+    - describe the problem you will address
+    - explain why the problem is important
+    - briefly reference an evidence-based policy solution to be considered in the brief
+
+2. **Annotated Bibliography** (10 points). The annotated bibliography must include:
+    - minimum of 8 high-quality sources, at least 6 of which are scholarly (academic, peer-reviewed or law revie) indicated by **bold font**
+    - summarize each source, relevant data, and main contribution to the area of interest
+
+
+# Preliminary Analysis
+Having established a topic and set of sources, stage 2 of the project is to organize your preliminary results. The results should consist of a discussion of your data and 3 tables and 3 figures based on those data, as well as a thorough explanation of each table/figure, what it is intended to show, and why the table/figure is relevant. Since your final policy brief should be advocating in favor of a particular policy or set of actions, this should help inform and shape the arguments you plan to make in the final brief. 
+
+1. **Motivation: Why is this an important topic to highlight today?** (10 points). The motivation for a policy brief is to provide policy makers and other interested parties about an important policy issue. Good policy briefs define the policy problem with a sense of purpose and urgency, demonstrating why this topic should be given priority to other topics. This part of the fact sheet should explain the problem using easy-to-follow language and convey the importance/urgency of a solution. Some questions to ask yourself are:
+    - What trends should people be aware of?
+    - What concepts and vocabulary do we need to fully understand the problem at hand?
+    - What is the relevant history of this topic?
+    - What are the implications and ramifications of this topic? 
+    - Why should we think about this issue in the way you are presenting and not another way?
+
+2. **Data** (10 points). What data are you using to address this question and why? What are the initial data sources? How do you construct you final dataset from the raw data sources?
+
+3. **Analysis: Tables and Figures** (10 points). Include a description of each table and figure, and a discussion of why each table/figure is important. You must include at least 3 tables and at least 3 figures. 
+
+# Final Policy Brief
+In the final stage, you will craft a professional, concise, and informative advocacy oriented 5-page policy brief on your topic. Your policy brief should draw attention to an important public policy issue within the health and/or healthcare market space; “define” the policy problem with evidence and other relevant context; and provide research and evidence-based policy recommendations or actions that reflect the constraints of the real world. The 5-page policy brief is worth 40 points toward you final project grade, allocated as follows:
+
+1. **Problem Definition and Introduction** (10 points). Your introduction of the policy issue to the audience must be catchy/memorable, informative, easy to follow, and convey a sense of urgency.
+
+2. **Main Content** (10 points). The bulk of the brief should elaborate on the policy problem: root causes, trends, the scope of the issue, or other relevant context. The specific content may vary depending on your selected topic, but some basic things to consider include:
+    - Relevant data, information, findings, and arguments should provide the reader with a concise, though nuanced overview of the policy issue.
+    - The content should reflect insights from high quality source materials (including scholarly sources)
+    - The writing should be clear and accurate. Cumulatively, the content should build into a persuasive narrative.
+
+3. **Structure & Professionalism** (10 points). The brief should be well organized and easy to navigate for non-subject-matter experts, with very few or no grammatical errors, spelling mistakes, missing words, etc.
+
+4. **Visually Engaging & Memorable** (10 points). There should be an effective use of limited space, with attention drawn to key points and structure using font, color, boxes, or other visual devices. Your final brief must include at least one table and at least one figure/graphic.
+
+
+# Other Resources
+The best way to become familiar and comfortable with the genre is by exploring it some. This will also be a good way for you to get an idea for the types of topics that policy briefs can cover. 
+
+1. External sources
+    - A good source for examples or briefs and/or good idea for brief topics is from the research centers at the [Harvard Kennedy School for Government](https://www.hks.harvard.edu/faculty-research/publications/publications-centers-initiatives), [Princeton School of Public and International Affairs](https://spia.princeton.edu/research-faculty-centers/research-briefs), and research centers at the [University of Michigan Ford School of Public Policy](https://fordschool.umich.edu/research-centers) or the [University of Chicago Harris School](https://harris.uchicago.edu/research-impact/centers-institutes)
+    - Explore the “Issues” pages of think tanks like the [Center for American Progress](https://www.americanprogress.org/issues/), the [Institute for Women’s Policy Research](https://iwpr.org/research/), [American Enterprise Institute](https://www.aei.org/policy-areas/), or [National League of Cities](https://www.nlc.org/advocacy/) – just to name a few!
+    - Dr. Rebecca Kreitzer’s website also has dozens of examples of completed student policy briefs, available [here](https://www.rebeccakreitzer.com/briefs/).
+    - [Research Engagement with Policy Makers: A Practice Guide to Writing Policy Briefs](https://osf.io/m25qp/)
+    - ["An Essential Guide to Writing Policy Briefs." International Centre for Policy Advocacy](https://www.icpolicyadvocacy.org/sites/icpa/files/downloads/icpa_policy_briefs_essential_guide.pdf)
+    
+2. Resources at Emory
+    - The Emory Writing Center has tons of resources and support. You can book an appointment for someone to evaluate your work. 
+    - Emory libraries have resources on journals, starting research, and have classes for organizing your sources. Chris Palazzolo is our contact with the library and is available if you have questions.
+    - Of course, come talk to me or the TA!
+
+
