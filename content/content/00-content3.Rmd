@@ -25,7 +25,13 @@ In part 3, we'll introduce and practice many of the basic data management tools 
 
 ## Activities 
 - Data manipulation with the `tidyverse`
-- Clone [Medicare Advantage repository](https://github.com/imccart-class/ma) and begin working with data 
+- Create your own [Medicare Advantage repository](https://github.com/imccart-class/ma) and begin working with data. Some specific steps...
+    1. Create an SSH key on your computer and pair with GitHub
+    2. Create GitHub repository
+    3. Clone to your local computer
+    4. Create folder structure (check [Assignments Page](/assignment/) for more detail)
+    5. Download data from OneDrive (check link on Canvas) and move to `data/input` folder
+    6. Download code from the GitHub repository for the assignment and move to `data-code` folder
 
 
 ## Slides
