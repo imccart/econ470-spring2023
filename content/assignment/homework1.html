@@ -25,10 +25,10 @@ type: docs
 </div>
 <div id="building-the-data" class="section level1">
 <h1>Building the data</h1>
-<p>The purpose of this part of the assignment is essentially to practice database management. Most of your professional lives will likely involve managing data. It can be tedious but also extremely rewarding when you finally get to find out what’s going on in the analysis stage. Anyway, let’s get to work! All of these questions require you to use the <a href="https://github.com/imccart-class/ma">Medicare Advantage GitHub Repo</a>.</p>
+<p>The purpose of this part of the assignment is essentially to practice database management. Most of your professional lives will likely involve managing data. It can be tedious but also extremely rewarding when you finally get to find out what’s going on in the analysis stage. Anyway, let’s get to work! All of these questions require you to use the <a href="https://github.com/imccart/ma-class">Medicare Advantage GitHub Repo</a>.</p>
 <div id="enrollment-data" class="section level2">
 <h2>Enrollment Data</h2>
-<p>Run the <code>R</code> code to organize the <a href="https://github.com/imccart-class/ma/blob/master/data-code/1_Plan_Data.R">Monthly Plan Enrollment Data</a>. Once you’ve created your final dataset (it’s called <em>full_ma_data</em> in my code), answer the following:</p>
+<p>Run the <code>R</code> code to organize the <a href="https://github.com/imccart/ma-class/blob/main/data-code/1_Plan_Data.R">Monthly Plan Enrollment Data</a>. Once you’ve created your final dataset (it’s called <em>full_ma_data</em> in my code), answer the following:</p>
 <ol style="list-style-type: decimal">
 <li><p>How many observations exist in your current dataset?</p></li>
 <li><p>How many different <em>plan_types</em> exist in the data?</p></li>
@@ -52,43 +52,43 @@ type: docs
 <tbody>
 <tr class="odd">
 <td align="left">Type 1</td>
-<td align="right">21</td>
-<td align="right">12</td>
-<td align="right">17</td>
-<td align="right">44</td>
-<td align="right">13</td>
-<td align="right">21</td>
+<td align="right">20</td>
+<td align="right">35</td>
+<td align="right">20</td>
+<td align="right">46</td>
+<td align="right">19</td>
+<td align="right">20</td>
 </tr>
 <tr class="even">
 <td align="left">Type 2</td>
-<td align="right">21</td>
-<td align="right">23</td>
+<td align="right">16</td>
+<td align="right">22</td>
+<td align="right">24</td>
 <td align="right">25</td>
-<td align="right">23</td>
-<td align="right">41</td>
-<td align="right">21</td>
+<td align="right">16</td>
+<td align="right">16</td>
 </tr>
 <tr class="odd">
 <td align="left">Type 3</td>
-<td align="right">44</td>
-<td align="right">43</td>
-<td align="right">40</td>
-<td align="right">10</td>
+<td align="right">30</td>
+<td align="right">32</td>
+<td align="right">17</td>
+<td align="right">13</td>
 <td align="right">14</td>
-<td align="right">44</td>
+<td align="right">30</td>
 </tr>
 </tbody>
 </table>
 <ol start="4" style="list-style-type: decimal">
 <li><p>Remove all special needs plans (SNP), employer group plans (eghp), and all “800-series” plans. Provide an updated version of Table <a href="#tab:plancount">1</a> after making these exclusions.</p></li>
-<li><p>Merge the contract service area data to the enrollment data, and restrict the data only to contracts that are approved in their respective counties. The <code>R</code> script to create the service area dataset is here: <a href="https://github.com/imccart-class/ma/blob/master/data-code/3_Service_Areas.R">Contract Service Area</a>. And you can follow the <a href="https://github.com/imccart-class/ma/blob/master/data-code/_BuildFinalData.R">_BuildFinalData.R</a> script to see where/how I join the datasets. Limiting your dataset only to plans with non-missing enrollment data, provide a graph showing the average number of Medicare Advantage enrollees per county from 2008 to 2015. Be sure to format your graph in a meaningful way.</p></li>
+<li><p>Merge the contract service area data to the enrollment data, and restrict the data only to contracts that are approved in their respective counties. The <code>R</code> script to create the service area dataset is here: <a href="https://github.com/imccart/ma-class/blob/main/data-code/3_Service_Areas.R">Contract Service Area</a>. And you can follow the <a href="https://github.com/imccart/ma-class/blob/main/data-code/_BuildFinalData.R">_BuildFinalData.R</a> script to see where/how I join the datasets. Limiting your dataset only to plans with non-missing enrollment data, provide a graph showing the average number of Medicare Advantage enrollees per county from 2008 to 2015. Be sure to format your graph in a meaningful way.</p></li>
 </ol>
 </div>
 <div id="premium-data" class="section level2">
 <h2>Premium Data</h2>
-<p>Now we’re going to incorporate the plan premium information. This is part of the “Plan Characteristics” data, and the underlying <code>R</code> scripts for these files can be found here: <a href="https://github.com/imccart-class/ma/blob/master/data-code/2_Plan_Characteristics.R">Plan Characteristics</a>.</p>
+<p>Now we’re going to incorporate the plan premium information. This is part of the “Plan Characteristics” data, and the underlying <code>R</code> scripts for these files can be found here: <a href="https://github.com/imccart/ma-class/blob/main/data-code/2_Plan_Characteristics.R">Plan Characteristics</a>.</p>
 <ol start="6" style="list-style-type: decimal">
-<li><p>Merge the plan characteristics data to the dataset you created in Step 6 above. Note that you’ll need to join the <a href="https://github.com/imccart-class/ma/blob/master/data-code/4_Penetration_Files.R">Market Penetration Data</a> in order to get the information you need to merge the plan characteristics. This is because the plan characteristics data only have state name and county (not FIPS codes). The penetration files have both FIPS codes and state/county names, so that dataset serves as a good crosswalk file. Provide a graph showing the average premium over time. Don’t forget about formatting!</p></li>
+<li><p>Merge the plan characteristics data to the dataset you created in Step 6 above. Note that you’ll need to join the <a href="https://github.com/imccart/ma-class/blob/main/data-code/4_Penetration_Files.R">Market Penetration Data</a> in order to get the information you need to merge the plan characteristics. This is because the plan characteristics data only have state name and county (not FIPS codes). The penetration files have both FIPS codes and state/county names, so that dataset serves as a good crosswalk file. Provide a graph showing the average premium over time. Don’t forget about formatting!</p></li>
 <li><p>Provide a graph showing the percentage of $0 premium plans over time. Also…remember to format things.</p></li>
 </ol>
 </div>
