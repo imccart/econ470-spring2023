@@ -52,30 +52,30 @@ type: docs
 <tbody>
 <tr class="odd">
 <td align="left">Type 1</td>
-<td align="right">20</td>
-<td align="right">35</td>
-<td align="right">20</td>
-<td align="right">46</td>
-<td align="right">19</td>
-<td align="right">20</td>
+<td align="right">12</td>
+<td align="right">32</td>
+<td align="right">29</td>
+<td align="right">10</td>
+<td align="right">12</td>
+<td align="right">12</td>
 </tr>
 <tr class="even">
 <td align="left">Type 2</td>
-<td align="right">16</td>
-<td align="right">22</td>
-<td align="right">24</td>
-<td align="right">25</td>
-<td align="right">16</td>
-<td align="right">16</td>
+<td align="right">30</td>
+<td align="right">27</td>
+<td align="right">18</td>
+<td align="right">41</td>
+<td align="right">32</td>
+<td align="right">30</td>
 </tr>
 <tr class="odd">
 <td align="left">Type 3</td>
-<td align="right">30</td>
-<td align="right">32</td>
+<td align="right">25</td>
 <td align="right">17</td>
-<td align="right">13</td>
-<td align="right">14</td>
-<td align="right">30</td>
+<td align="right">16</td>
+<td align="right">16</td>
+<td align="right">31</td>
+<td align="right">25</td>
 </tr>
 </tbody>
 </table>
@@ -88,7 +88,7 @@ type: docs
 <h2>Premium Data</h2>
 <p>Now we’re going to incorporate the plan premium information. This is part of the “Plan Characteristics” data, and the underlying <code>R</code> scripts for these files can be found here: <a href="https://github.com/imccart/ma-class/blob/main/data-code/2_Plan_Characteristics.R">Plan Characteristics</a>.</p>
 <ol start="6" style="list-style-type: decimal">
-<li><p>Merge the plan characteristics data to the dataset you created in Step 6 above. Note that you’ll need to join the <a href="https://github.com/imccart/ma-class/blob/main/data-code/4_Penetration_Files.R">Market Penetration Data</a> in order to get the information you need to merge the plan characteristics. This is because the plan characteristics data only have state name and county (not FIPS codes). The penetration files have both FIPS codes and state/county names, so that dataset serves as a good crosswalk file. Provide a graph showing the average premium over time. Don’t forget about formatting!</p></li>
+<li><p>Merge the plan characteristics data to the dataset you created in Step 5 above. Note that you’ll need to join the <a href="https://github.com/imccart/ma-class/blob/main/data-code/4_Penetration_Files.R">Market Penetration Data</a> in order to get the information you need to merge the plan characteristics. This is because the plan characteristics data only have state name and county (not FIPS codes). The penetration files have both FIPS codes and state/county names, so that dataset serves as a good crosswalk file. Provide a graph showing the average premium over time. Don’t forget about formatting!</p></li>
 <li><p>Provide a graph showing the percentage of $0 premium plans over time. Also…remember to format things.</p></li>
 </ol>
 </div>

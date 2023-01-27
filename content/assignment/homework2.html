@@ -26,31 +26,31 @@ type: docs
 <div id="summarize-the-data" class="section level1">
 <h1>Summarize the data</h1>
 <ol style="list-style-type: decimal">
-<li>How many hospitals submitted the 1996 version of the HCRIS reports in 2010? How is that even possible?</li>
-<li>How many hospitals filed more than one report in the same year? Show your answer as a line graph of the number of hospitals over time.</li>
-<li>After removing/combining multiple reports, how many unique hospital IDs (Medicare provider numbers) exist in the data? Provide a line graph plotting the number of hospitals in each year.</li>
-<li>What is the distribution of total charges (<code>tot_charges</code> in the data) in each year? Show your results with a “violin” plot, with charges on the y-axis and years on the x-asix. For a nice tutorial on violin plots, look at <a href="https://ggplot2tutor.com/powerlifting/squats/">Violin Plots with ggplot2</a>.</li>
-<li>Create the same violin plot with estimated prices on the y-axis. Recall our formula for estimating prices from class.</li>
+<li><p>How many hospitals filed more than one report in the same year? Show your answer as a line graph of the number of hospitals over time.</p></li>
+<li><p>After removing/combining multiple reports, how many unique hospital IDs (Medicare provider numbers) exist in the data?</p></li>
+<li><p>What is the distribution of total charges (tot_charges in the data) in each year? Show your results with a “violin” plot, with charges on the y-axis and years on the x-axis. For a nice tutorial on violin plots, look at <a href="https://ggplot2tutor.com/powerlifting/squats/">Violin Plots with ggplot2</a>.</p></li>
+<li><p>What is the distribution of estimated prices in each year? Again present your results with a violin plot, and recall our formula for estimating prices from class.</p></li>
 </ol>
 <pre class="r"><code>discount_factor = 1-tot_discounts/tot_charges
 price_num = (ip_charges + icu_charges + ancillary_charges)*discount_factor - tot_mcare_payment
 price_denom = tot_discharges - mcare_discharges
 price = price_num/price_denom</code></pre>
-<ol start="6" style="list-style-type: decimal">
-<li>Form an indicator variable set to 1 if the hospital incurred a penalty under the readmission reduction program. Plot the share of hospitals penalized in each year.</li>
-</ol>
 </div>
 <div id="estimate-ates" class="section level1">
 <h1>Estimate ATEs</h1>
 <p>For the rest of the assignment, you should include only observations in 2012. So we are now dealing with cross-sectional data in which some hospitals are penalized and some are not. Please also define <strong>penalty</strong> as whether the sum of the HRRP and HVBP amounts are negative (i.e., a net penalty under the two programs). Code to do this is in the Section 2 slides. <br></p>
-<ol style="list-style-type: decimal">
+<ol start="5" style="list-style-type: decimal">
 <li><p>Calculate the average price among penalized versus non-penalized hospitals.</p></li>
-<li><p>Split hospitals into quartiles based on bed size. To do this, create 4 new indicator variables, where each variable is set to 1 if the hospital’s bed size falls into the relevant quartile.</p></li>
-<li><p>Find the average treatment effect using nearest neighbor matching (1-to-1) with inverse variance distance based on quartiles of bed size.</p></li>
-<li><p>Find the average treatment effect using nearest neighbor matching (1-to-1) with Mahalanobis distance based on quartiles of bed size.</p></li>
-<li><p>Find the average treatment effect using inverse propensity weighting, where the propensity scores are based on quartiles of bed size.</p></li>
-<li><p>Find the average treatment effect using a single linear regression.</p></li>
+<li><p>Split hospitals into quartiles based on bed size. To do this, create 4 new indicator variables, where each variable is set to 1 if the hospital’s bed size falls into the relevant quartile. Provide a table of the average price among treated/control groups for each quartile.</p></li>
+<li><p>Find the average treatment effect using each of the following estimators, and present your results in a single table:</p>
+<ul>
+<li>Nearest neighbor matching (1-to-1) with inverse variance distance based on quartiles of bed size</li>
+<li>Nearest neighbor matching (1-to-1) with Mahalanobis distance based on quartiles of bed size</li>
+<li>Inverse propensity weighting, where the propensity scores are based on quartiles of bed size</li>
+<li>Simple linear regression, adjusting for quartiles of bed size using dummy variables and appropriate interactions as discussed in class</li>
+</ul></li>
 <li><p>With these different treatment effect estimators, are the results similar, identical, very different?</p></li>
 <li><p>Do you think you’ve estimated a causal effect of the penalty? Why or why not? (just a couple of sentences)</p></li>
+<li><p>Briefly describe your experience working with these data (just a few sentences). Tell me one thing you learned and one thing that really aggravated you.</p></li>
 </ol>
 </div>
