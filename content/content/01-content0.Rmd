@@ -35,5 +35,4 @@ Links to papers are listed alongside the full reference. PDFs of each paper are 
 - <i class="fa fa-database"></i> Data for this module:
     - [Hospital Cost Report Information System (HCRIS)](https://github.com/imccart/HCRIS) repository
     - See also a similar repository [here](https://github.com/asacarny/hospital-cost-reports) from [Adam Sacarny](http://sacarny.com/)
-    - Understand filepaths. Short [video](https://youtu.be/NG7Y0kkGR8g) from Nick Huntington-Klein.    
     
