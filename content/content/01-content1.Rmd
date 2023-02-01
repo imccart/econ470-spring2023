@@ -25,7 +25,7 @@ Part 1 of this module will introduce the confusing mess that is hospital prices 
 
 
 ## Activities 
-- Clone [Hospital Cost Report Information System (HCRIS)](https://github.com/imccart-test/hcris) repository and begin working with data. See also a similar repository [here](https://github.com/asacarny/hospital-cost-reports) from [Adam Sacarny](http://sacarny.com/)
+- Clone [Hospital Cost Report Information System (HCRIS)](https://github.com/imccart/hcris-class) repository and begin working with data. See also a similar repository [here](https://github.com/asacarny/hospital-cost-reports) from [Adam Sacarny](http://sacarny.com/)
 
 
 

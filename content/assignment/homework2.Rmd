@@ -24,7 +24,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 # Instructions
-In this assignment, you'll recreate the HCRIS data and answer a few questions along the way. The first step is to make sure you're working with the [HCRIS GitHub repository](https://github.com/imccart-class/hcris) and downloaded all of the raw data sources. Once you have the data downloaded and the code running, answer the following questions:
+In this assignment, you'll recreate the HCRIS data and answer a few questions along the way. The first step is to make sure you're working with the [HCRIS GitHub repository](https://github.com/imccart/hcris-class) and downloaded all of the raw data sources. Once you have the data downloaded and the code running, answer the following questions:
 
 # Summarize the data
 1. How many hospitals filed more than one report in the same year? Show your answer as a line graph of the number of hospitals over time.
