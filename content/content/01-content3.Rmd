@@ -25,7 +25,7 @@ Part 3 continues our work with matching, reweighting, and regression, but in the
 - Calculate an ATE or ATT using regression, matching, and weighting using real-world pricing data
 
 ## Activities 
-- Continue working with the [Hospital Cost Report Information System (HCRIS)](https://github.com/imccart-test/hcris) repository.
+- Continue working with the [Hospital Cost Report Information System (HCRIS)](https://github.com/imccart/hcris-class) repository.
 - Estimate the effect of hospital penalties on hospital pricing
 
 
