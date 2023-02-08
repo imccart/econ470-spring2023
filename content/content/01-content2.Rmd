@@ -26,8 +26,8 @@ Part 2 begins our first attempt to estimate a causal treatment effect. We'll do 
 
 
 ## Activities 
-- Continue working with the [Hospital Cost Report Information System (HCRIS)](https://github.com/imccart-test/hcris) repository.
-- Estimate treatment effects with simulated data, using matching, regression, and re-weighting
+- Continue working with the [Hospital Cost Report Information System (HCRIS)](https://github.com/imccart/hcris-class) repository.
+- Estimate treatment effects with simulated data, using matching, regression, and re-weighting. The code file for in-class simulated data is available [here](https://imccart.github.io/econ470-content/01-hospital-pricing/in-class-code.R)
 
 
 ## Slides
