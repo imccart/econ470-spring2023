@@ -23,17 +23,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 # Instructions
-In this assignment, you'll recreate the CDC Tax Burden on Tobacco data and answer a few questions along the way. As with the last assignment, the first step is to make sure you've got the [CDC Tax Burden on Tobacco repository](https://github.com/imccart-class/cdc-tobacco) and downloaded all of the raw data sources. Be sure to get the CPI data from the BLS as well, since we'll be working with *real* dollar values. Once you have the data downloaded and the code running, answer the following questions:
+In this assignment, you'll recreate the CDC Tax Burden on Tobacco data and answer a few questions along the way. As with the last assignment, the first step is to make sure you've got the [CDC Tax Burden on Tobacco repository](https://github.com/imccart/CDC-tobacco) and downloaded all of the raw data sources. Be sure to get the CPI data from the BLS as well, since we'll be working with *real* dollar values. Once you have the data downloaded and the code running, answer the following questions:
 
 
 # Summarize the data
-1. Present a line graph showing the average number of packs sold per capita from 1970 to 2018.
-2. Present a bar graph showing the proportion of states with a change in their cigarette tax in each year from 1970 to 1985.
-3. Plot the average tax (in 2012 dollars) on cigarettes from 1970 to 2018.
-4. Plot the average price of a pack of cigarettes from 1970 to 2018. Over what period did prices appear to increase the most?
-5. Identify the 5 states with the highest increases in cigarette prices (in dollars) over the time period. Plot the average number of packs sold per capita for those states from 1970 to 2018.
-6. Identify the 5 states with the lowest increases in cigarette prices over the time period. Plot the average number of packs sold per capita for those states from 1970 to 2018. 
-7. Compare the trends in sales from the 5 states with the highest price increases to those with the lowest price increases.
+1. Present a bar graph showing the proportion of states with a change in their cigarette tax in each year from 1970 to 1985.
+2. Plot on a single graph the average tax (in 2012 dollars) on cigarettes and the average price of a pack of cigarettes from 1970 to 2018.
+3. Identify the 5 states with the highest increases in cigarette prices (in dollars) over the time period. Plot the average number of packs sold per capita for those states from 1970 to 2018.
+4. Identify the 5 states with the lowest increases in cigarette prices over the time period. Plot the average number of packs sold per capita for those states from 1970 to 2018. 
+5. Compare the trends in sales from the 5 states with the highest price increases to those with the lowest price increases.
 
 
 # Estimate ATEs
