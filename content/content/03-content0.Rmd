@@ -32,5 +32,5 @@ Links to papers are listed alongside the full reference. PDFs of each paper are 
     - [@darden2015]
     - [@gruber2017]    
 - <i class="fa fa-database"></i> Data for this module:
-    - [Medicare Advantage](https://github.com/imccart-test/ma) repository
+    - [Medicare Advantage](https://github.com/imccart/ma-class) repository
 

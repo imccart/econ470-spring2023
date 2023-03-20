@@ -30,5 +30,5 @@ This introduction module is a time for us to go over the details of the course, 
     - Chapter 14 of [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/)
 - <i class="fa fa-database"></i> Data for this module:
     - Data from [Gapminder](https://www.gapminder.org/)
-    - [Medicare Advantage](https://github.com/imccart-class/ma) repository
+    - [Medicare Advantage](https://github.com/imccart/ma-class) repository
 
