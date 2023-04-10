@@ -1,6 +1,6 @@
 ---
 title: "Module 4, Part 2: Introduction to Difference-in-Differences"
-linktitle: "M4.2: DD"
+linktitle: "M4.2: Panel Data and DD"
 menu:
   content:
     parent: Module 4
