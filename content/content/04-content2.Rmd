@@ -21,6 +21,7 @@ The goal of Part 2 of this module is to introduce the difference-in-differences 
 
 
 ## Objectives
+- Describe the basics of panel data and fixed effects
 - Describe the DD research design
 
 ## Activities 
@@ -39,11 +40,25 @@ Use the buttons below to open the slides either as an interactive website or as 
 <center>
 
 ```{r}
-knitr::include_url("https://imccart.github.io/econ470-content/04-medicaid-uninsurance/04-medicaid-uninsurance2.html")
+knitr::include_url("https://imccart.github.io/econ470-content/04-medicaid-uninsurance/04-dd-part0.html")
 ```
 
 
-<p><a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/04-medicaid-uninsurance/04-medicaid-uninsurance2.html"><i class="fas fa-external-link-alt"></i> View all slides in new window</a> <a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/04-medicaid-uninsurance/04-medicaid-uninsurance2.pdf" role="button"><i class="far fa-file-pdf"></i> Download PDF of all slides</a></p>
+<p><a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/04-medicaid-uninsurance/04-dd-part0.html"><i class="fas fa-external-link-alt"></i> View all slides in new window</a> <a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/04-medicaid-uninsurance/04-dd-part0.pdf" role="button"><i class="far fa-file-pdf"></i> Download PDF of all slides</a></p>
 
 </center>
+
+
+<center>
+
+```{r}
+knitr::include_url("https://imccart.github.io/econ470-content/04-medicaid-uninsurance/04-dd-part1.html")
+```
+
+
+<p><a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/04-medicaid-uninsurance/04-dd-part1.html"><i class="fas fa-external-link-alt"></i> View all slides in new window</a> <a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/04-medicaid-uninsurance/04-dd-part1.pdf" role="button"><i class="far fa-file-pdf"></i> Download PDF of all slides</a></p>
+
+</center>
+
+
 

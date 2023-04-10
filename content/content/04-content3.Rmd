@@ -1,6 +1,6 @@
 ---
-title: "Module 4, Part 3: Difference-in-Differences in Practice"
-linktitle: "M4.3: DD IRL"
+title: "Module 4, Part 3: New Difference-in-Differences"
+linktitle: "M4.3: DD+"
 menu:
   content:
     parent: Module 4
@@ -21,11 +21,10 @@ The goal of Part 3 of this module is to use a DD strategy with real-life data an
 
 
 ## Objectives
-- Explain a fixed effect and an event study in the context of panel data regressions
-- Understand some of the difficulties when interpreting the results of regression-based DD estimates
+- Understand and explain some of the difficulties when interpreting the results of regression-based DD estimates
+- Be aware of alternative estimators that may be applicable in some settings
 
 ## Activities 
-- Implement DD using real-life data on Medicaid expansion
 - Estimate an event study with constant treatment timing
 - Estimate an event study with differential treatment timing
 
@@ -41,11 +40,11 @@ Use the buttons below to open the slides either as an interactive website or as 
 <center>
 
 ```{r}
-knitr::include_url("https://imccart.github.io/econ470-content/04-medicaid-uninsurance/04-medicaid-uninsurance3.html")
+knitr::include_url("https://imccart.github.io/econ470-content/04-medicaid-uninsurance/04-dd-part2.html")
 ```
 
 
-<p><a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/04-medicaid-uninsurance/04-medicaid-uninsurance3.html"><i class="fas fa-external-link-alt"></i> View all slides in new window</a> <a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/04-medicaid-uninsurance/04-medicaid-uninsurance3.pdf" role="button"><i class="far fa-file-pdf"></i> Download PDF of all slides</a></p>
+<p><a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/04-medicaid-uninsurance/04-dd-part2.html"><i class="fas fa-external-link-alt"></i> View all slides in new window</a> <a class="btn btn-primary btn-lg" target="_blank" href="https://imccart.github.io/econ470-content/04-medicaid-uninsurance/04-dd-part2.pdf" role="button"><i class="far fa-file-pdf"></i> Download PDF of all slides</a></p>
 
 </center>
 
